@@ -83,7 +83,10 @@
 .mb .wrapper__col2__main__bottom__txt {
     width:50%;
     height:100%;
+    
 }
+
+
 
 .mb .wrapper__col2__main__bottom__img {
     width:50%;
@@ -92,4 +95,88 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+}
+
+.com3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.com3 div {
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px #777;
+}
+
+.com3 .wrapper__col3__main__box1 {
+    width:300px;
+    height:350px;
+    margin-top:300px;
+    background-image: url(https://images.unsplash.com/photo-1572536180066-35df23ad7b1b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.com3 .wrapper__col3__main__box2 {
+    width:300px;
+    height:350px;
+    background-image: url(https://images.unsplash.com/photo-1501426026826-31c667bdf23d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.com3 .wrapper__col3__main__box3 {
+    width:300px;
+    height:350px;
+    margin-top:300px;
+    background-image: url(https://images.unsplash.com/photo-1581275341387-dc1445d4f949?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=600&q=60);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.mainDesc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainDesc
+.mainDesc__title {
+    margin-bottom: 20px;
+}
+
+
+.mainDesc
+.mainDesc__title
+.mainDeac__title__number {
+    font-size: 40px;
+    color:#888;
+    font-weight: 700;
+    margin-right:10px;
+    border-bottom: 2px solid #777;
+}
+
+.mainDesc
+.mainDesc__title
+.mainDeac__title__txt {
+    font-size: 40px;
+    color:#333;
+    font-weight: 700;
+    margin-right:10px;
+    
+}
+
+.mainDesc
+.mainDesc__title
+.mainDesc__content {
+    font-size: 35px;
+    color:#777;
+    margin-bottom: 5px;
+
 }
